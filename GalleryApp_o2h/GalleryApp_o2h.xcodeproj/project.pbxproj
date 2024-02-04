@@ -19,10 +19,10 @@
 		186B4CFE2B6E901300262455 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186B4CFC2B6E901300262455 /* ImageCell.xib */; };
 		18966E322B6FB56200060E30 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 18966E312B6FB56200060E30 /* README.md */; };
 		18966E342B6FBE3100060E30 /* IPLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18966E332B6FBE3100060E30 /* IPLoader.swift */; };
-		18966E362B6FD1CC00060E30 /* UserData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18966E292B6F5CAA00060E30 /* UserData+CoreDataClass.swift */; };
-		18966E372B6FD1DE00060E30 /* GalleryData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18966E2B2B6F5CAA00060E30 /* GalleryData+CoreDataClass.swift */; };
-		18966E382B6FD1E400060E30 /* UserData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18966E2A2B6F5CAA00060E30 /* UserData+CoreDataProperties.swift */; };
-		18966E392B6FD1E900060E30 /* GalleryData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18966E2C2B6F5CAA00060E30 /* GalleryData+CoreDataProperties.swift */; };
+		18966E3C2B6FD41E00060E30 /* GalleryData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18966E3B2B6FD41E00060E30 /* GalleryData+CoreDataClass.swift */; };
+		18966E3E2B6FD42B00060E30 /* GalleryData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18966E3D2B6FD42B00060E30 /* GalleryData+CoreDataProperties.swift */; };
+		18966E402B6FD43300060E30 /* UserData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18966E3F2B6FD43300060E30 /* UserData+CoreDataClass.swift */; };
+		18966E422B6FD43C00060E30 /* UserData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18966E412B6FD43C00060E30 /* UserData+CoreDataProperties.swift */; };
 		973BCF81DF392CDFC362CDB8 /* Pods_GalleryApp_o2h.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB294E1F35200CC3D5CDF57 /* Pods_GalleryApp_o2h.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,12 +39,12 @@
 		18220BE92B6E60EB006A0E6F /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		186B4CFB2B6E901300262455 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		186B4CFC2B6E901300262455 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
-		18966E292B6F5CAA00060E30 /* UserData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		18966E2A2B6F5CAA00060E30 /* UserData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		18966E2B2B6F5CAA00060E30 /* GalleryData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GalleryData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		18966E2C2B6F5CAA00060E30 /* GalleryData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GalleryData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		18966E312B6FB56200060E30 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18966E332B6FBE3100060E30 /* IPLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPLoader.swift; sourceTree = "<group>"; };
+		18966E3B2B6FD41E00060E30 /* GalleryData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GalleryData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		18966E3D2B6FD42B00060E30 /* GalleryData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GalleryData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		18966E3F2B6FD43300060E30 /* UserData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		18966E412B6FD43C00060E30 /* UserData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserData+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5BB294E1F35200CC3D5CDF57 /* Pods_GalleryApp_o2h.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GalleryApp_o2h.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8A8FB036AB9769C85CEDFB /* Pods-GalleryApp_o2h.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GalleryApp_o2h.release.xcconfig"; path = "Target Support Files/Pods-GalleryApp_o2h/Pods-GalleryApp_o2h.release.xcconfig"; sourceTree = "<group>"; };
 		E4EC0F05E1FB8A1AC3A53E9A /* Pods-GalleryApp_o2h.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GalleryApp_o2h.debug.xcconfig"; path = "Target Support Files/Pods-GalleryApp_o2h/Pods-GalleryApp_o2h.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,11 +127,11 @@
 		18966E1D2B6F541000060E30 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				18966E292B6F5CAA00060E30 /* UserData+CoreDataClass.swift */,
-				18966E2A2B6F5CAA00060E30 /* UserData+CoreDataProperties.swift */,
-				18966E2B2B6F5CAA00060E30 /* GalleryData+CoreDataClass.swift */,
-				18966E2C2B6F5CAA00060E30 /* GalleryData+CoreDataProperties.swift */,
 				18220BD92B6E4418006A0E6F /* GalleryApp_o2h.xcdatamodeld */,
+				18966E412B6FD43C00060E30 /* UserData+CoreDataProperties.swift */,
+				18966E3D2B6FD42B00060E30 /* GalleryData+CoreDataProperties.swift */,
+				18966E3F2B6FD43300060E30 /* UserData+CoreDataClass.swift */,
+				18966E3B2B6FD41E00060E30 /* GalleryData+CoreDataClass.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -296,12 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18966E392B6FD1E900060E30 /* GalleryData+CoreDataProperties.swift in Sources */,
-				18966E382B6FD1E400060E30 /* UserData+CoreDataProperties.swift in Sources */,
-				18966E372B6FD1DE00060E30 /* GalleryData+CoreDataClass.swift in Sources */,
-				18966E362B6FD1CC00060E30 /* UserData+CoreDataClass.swift in Sources */,
+				18966E422B6FD43C00060E30 /* UserData+CoreDataProperties.swift in Sources */,
+				18966E402B6FD43300060E30 /* UserData+CoreDataClass.swift in Sources */,
+				18966E3C2B6FD41E00060E30 /* GalleryData+CoreDataClass.swift in Sources */,
 				18966E342B6FBE3100060E30 /* IPLoader.swift in Sources */,
 				18220BEA2B6E60EB006A0E6F /* ProfileVC.swift in Sources */,
+				18966E3E2B6FD42B00060E30 /* GalleryData+CoreDataProperties.swift in Sources */,
 				18220BDB2B6E4418006A0E6F /* GalleryApp_o2h.xcdatamodeld in Sources */,
 				18220BD52B6E4417006A0E6F /* ViewController.swift in Sources */,
 				18220BD12B6E4417006A0E6F /* AppDelegate.swift in Sources */,
